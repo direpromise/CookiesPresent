@@ -1,0 +1,9 @@
+{
+    "name": "CookiesPresents",
+    "version_number": "0.5.0",
+    "website_url": "https://discord.gg/7r7RBpybVK",
+    "description": "🍪 [v47 & v49] FULLY CLIENT-SIDED! Adds various & randomized Gift Boxes into Lethal Company! 🎁 (open to suggestions on our discord!) 🍪",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2100"
+    ]
+}

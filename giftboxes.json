@@ -1,0 +1,77 @@
+[
+  {
+    "name": "Gift Box",
+    "material": "PresentTex1.mat",
+    "texture": "Gift1.png"
+  },
+  {
+    "name": "Bumblebee Box",
+    "material": "PresentTex2.mat",
+    "texture": "Gift2.png"
+  },
+  {
+    "name": "Finnish Box",
+    "material": "PresentTex3.mat",
+    "texture": "Gift3.png"
+  },
+  {
+    "name": "Krampus Box",
+    "material": "PresentTex4.mat",
+    "texture": "Gift4.png"
+  },
+  {
+    "name": "Banana Strawberry Box",
+    "material": "PresentTex5.mat",
+    "texture": "Gift5.png"
+  },
+  {
+    "name": "Christmas Box",
+    "material": "PresentTex6.mat",
+    "texture": "Gift6.png"
+  },
+  {
+    "name": "Swedish Box",
+    "material": "PresentTex7.mat",
+    "texture": "Gift7.png"
+  },
+  {
+    "name": "Banana Ugly Box",
+    "material": "PresentTex8.mat",
+    "texture": "Gift8.png"
+  },
+  {
+    "name": "Coral Box",
+    "material": "PresentTex9.mat",
+    "texture": "Gift9.png"
+  },
+  {
+    "name": "Crimson Noir Box",
+    "material": "PresentTex10.mat",
+    "texture": "Gift10.png"
+  },
+  {
+    "name": "Noir Box",
+    "material": "PresentTex11.mat",
+    "texture": "Gift11.png"
+  },
+  {
+    "name": "Halloween Box",
+    "material": "PresentTex12.mat",
+    "texture": "Gift12.png"
+  },
+  {
+    "name": "Heineken Box",
+    "material": "PresentTex13.mat",
+    "texture": "Gift13.png"
+  },
+  {
+    "name": "Healthpack Box",
+    "material": "PresentTex14.mat",
+    "texture": "Gift14.png"
+  },
+  {
+    "name": "Wack Darling Box",
+    "material": "PresentTex15.mat",
+    "texture": "Gift15.png"
+  }
+]

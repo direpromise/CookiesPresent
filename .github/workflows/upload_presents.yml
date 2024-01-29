@@ -1,0 +1,43 @@
+name: Upload Prebuilt Zip (Presents)
+
+on:
+  push:
+    paths:
+      - 'CHANGELOG.md'
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+  
+jobs:
+  handleSounds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Create CookiesPresents Zip
+        run: |
+          sudo apt install zip
+          zip -r CookiesPresents.zip icon.png manifest.json README.md CHANGELOG.md CookiesPresents.dll giftboxes.json giftbundle
+      - id: pub
+        uses: ./
+        with:
+          namespace: ChocolateCookies
+          name: CookiesPresents
+          token: ${{ secrets.TS_KEY }}
+          description: |
+            🍪 [v47 & v49] FULLY CLIENT-SIDED! Adds various & randomized Gift Boxes into Lethal Company! 🎁 (open to suggestions on our discord!) 🍪
+          version: v1.${{ github.run_number }}.0
+          community: lethal-company
+          repo: thunderstore.io
+          website: "https://creampies.wtf"
+          categories: |
+            mods
+            clientside
+            items
+            cosmetics
+            
+          # Check the correct format for dependencies in Thunderstore
+          deps: |
+            ChocolateCookies-CookiesPresents-1.${{ github.run_number }}.0
+          file: ./CookiesPresents.zip
+      - run: echo ${{ steps.pub.outputs.url }}
