@@ -73,5 +73,10 @@
     "name": "Wack Darling Box",
     "material": "PresentTex15.mat",
     "texture": "Gift15.png"
+  },
+  {
+    "name": "Lucky Box",
+    "material": "PresentTex16.mat",
+    "texture": "Gift16.png"
   }
 ]

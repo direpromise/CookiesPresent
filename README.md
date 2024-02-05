@@ -23,11 +23,12 @@ I plan to add more variants and features into this mod, if you have a suggestion
 - Rarity chances with more rare variants giving better loot
 - More variants & higher quality textures/models
 - Networking/syncing options toggleable via the config file
+- High risk high reward "dangerous" gift boxes that either give really good loot! (or an unfortunate death)
 - And more...
 
 ---
 
-# 👇 Currently added 👇 [0.5.0]
+# 👇 Currently added 👇 [0.6.0]
 
 - Bumblebee Box 🐝
 - Finnish Box
@@ -43,6 +44,7 @@ I plan to add more variants and features into this mod, if you have a suggestion
 - Heineken Box
 - Healthpack Box 🏥
 - Wack Darling Box 🎀
+- Lucky Box 🍄
 
 
 
@@ -71,6 +73,8 @@ I plan to add more variants and features into this mod, if you have a suggestion
 ## 👥 Contributors
 
 - [@ChocoloateCookies](https://github.com/direpromise)
+
+- [Snayp1](https://snayp.carrd.co/)
 
 ## 💬 Support or Contact
 
