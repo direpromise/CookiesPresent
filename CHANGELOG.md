@@ -1,3 +1,7 @@
+# CookiesPresents 0.6.1
+
+- Optimized the build
+
 # CookiesPresents 0.6.0
 
 - Added Lucky Box (by Snayp1)
